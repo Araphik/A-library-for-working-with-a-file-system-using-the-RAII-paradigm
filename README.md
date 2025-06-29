@@ -28,12 +28,12 @@ cmake --build .
 ## Project Structure
 
 build/
-├── bin/               
-│   ├── TestProgramStaticLinking
-│   └── TestProgramDynamicLinking
-└── lib/              
-    ├── libFileRAII.a
-    └── libFileRAII.so (or .dylib)
+├── bin/
+│ ├── TestProgramStaticLinking
+│ └── TestProgramDynamicLinking
+└── lib/
+├── libFileRAII.a
+└── libFileRAII.so (or .dylib)
 
 ## Usage (Example)
 
